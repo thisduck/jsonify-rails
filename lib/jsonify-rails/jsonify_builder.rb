@@ -35,7 +35,7 @@ module ActionView
         private 
 
         def self.jsonify_format
-          Rails.application.config.respond_to?(:jsonify_format) ? Rails.application.config.jsonify_format : 'plain'
+          'plain'
         end
         
       end
